@@ -171,7 +171,7 @@ a {
 }
 
 .portfolio-grid {
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 }
 
 .portfolio-item {
@@ -222,4 +222,5 @@ a {
     .nav {
         display: none;
     }
+
 }
