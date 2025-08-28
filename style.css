@@ -87,6 +87,7 @@ a {
     border-radius: 999px;
     padding: 12px 18px;
     font-weight: 600;
+    background: var(--brand);
     border: 1px solid transparent;
 }
 
@@ -222,4 +223,5 @@ a {
     .nav {
         display: none;
     }
+
 }
