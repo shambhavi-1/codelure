@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Studio Nest - Interior design that blends comfort, function, and style." />
+  <title>Studio Nest | Interior Design</title>
+  
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-content">
+      <a href="#hero" class="brand">Studio <span>Nest</span></a>
+      <nav class="nav">
+        <a href="#work">Work</a>
+        <a href="#contact" class="btn  btn-sm">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="hero">
+      <div class="container hero-inner">
+        <p class="eyebrow">Interior Design Studio</p>
+        <h1>Elevate everyday living with thoughtful interiors</h1>
+        <p class="subtext">We create timeless, functional spaces that reflect who you are.
+        </p>
+        <div class="cta-group">
+          <a href="#portfolio" class="btn ">View Work</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="section">
+      <div class="container">
+        <h2 class="section-title">Work</h2>
+        <div class="grid portfolio-grid">
+          <figure class="portfolio-item">
+            <img src="./assets/living-room.jpg" alt="Minimal living room with warm tones" />
+            <figcaption>Living room</figcaption>
+          </figure>
+          <figure class="portfolio-item">
+            <img src="./assets/kitchen.jpg" alt="Modern kitchen with island" />
+            <figcaption>Kitchen</figcaption>
+          </figure>
+          <figure class="portfolio-item">
+            <img src="./assets/bedroom.jpg" alt="Cozy bedroom with natural light" />
+            <figcaption>Bedroom</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Selected Work</h2>
+        <div class="grid portfolio-grid">
+          <figure class="portfolio-item">
+            <img src="./assets/living-room.jpg" alt="Minimal living room with warm tones" />
+            <figcaption>Warm Minimal Living room</figcaption>
+          </figure>
+          <figure class="portfolio-item">
+            <img src="./assets/kitchen.jpg" alt="Modern kitchen with island" />
+            <figcaption>Modern Kitchen</figcaption>
+          </figure>
+          <figure class="portfolio-item">
+            <img src="./assets/bedroom.jpg" alt="Cozy bedroom with natural light" />
+            <figcaption>Cozy Bedroom</figcaption>
+          </figure>
+          <figure class="portfolio-item">
+            <img src="./assets/dining-hall.jpg" alt="Scandinavian dining area" />
+            <figcaption>Chic Dining Space</figcaption>
+          </figure>
+          <figure class="portfolio-item">
+            <img src="./assets/bathroom.jpg" alt="Elegant bathroom" />
+            <figcaption>Elegant Bath</figcaption>
+          </figure>
+          <figure class="portfolio-item">
+            <img src="./assets/workspace.jpg" alt="Bright workspace" />
+            <figcaption>Creative Workspace</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    
+
+    
+
+    <section id="contact" class="section contact">
+      <div class="container">
+        <div class="cta-minimal card">
+          <h2>Let's design your space</h2>
+          <p>Tell us your vision. We'll make it real.</p>
+          <div class="cta-group">
+            <a href="#" class="btn ">Email us</a>
+            <a href="#work" class="btn ">See work</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>© <span id="year"></span> Studio Nest</p>
+      <a href="#hero" class="back-to-top">Top ↑</a>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
+
